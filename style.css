@@ -45,4 +45,7 @@ p {
     .texto {
         width: 90%;
     }
+    p {
+        width: 95%;
+    }
 }
