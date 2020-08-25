@@ -22,7 +22,7 @@
     border: 2px solid white;
     border-radius: 100px;
     background-color: rgb(53, 53, 53);
-    margin: 0 10px;
+    margin: 10px;
     box-shadow: 0 5px 10px 0 black;
 }
 p {
@@ -38,6 +38,11 @@ p {
     border: 2px solid white;
     border-radius: 100px;
     background-color: rgb(53, 53, 53);
-    margin: 0 10px;
+    margin: 10px;
     box-shadow: 0 5px 10px 0 black;
+}
+@media screen and (max-width: 425px) {
+    .texto {
+        width: 90%;
+    }
 }
