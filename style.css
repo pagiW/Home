@@ -28,6 +28,7 @@
 p {
     font-weight: bold;
     font-size: 25px;
+    width: 90%;
 }
 .añadir {
     width: 200px;
@@ -44,8 +45,5 @@ p {
 @media screen and (max-width: 425px) {
     .texto {
         width: 90%;
-    }
-    p {
-        width: 95%;
     }
 }
