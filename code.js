@@ -5,6 +5,8 @@ var add = document.getElementById('añadir');
 var end = document.getElementById('end');
 var center = document.getElementById('center');
 var start = document.getElementById('start');
+var up;
+var upper;
 
 boton.addEventListener('click', evento);
 add.addEventListener('click', añadir);
@@ -14,7 +16,9 @@ start.addEventListener('click', izquierda);
 document.addEventListener('keyup', press);
 
 function evento() {
-    p.innerHTML = txt.value;
+    up = txt.value;
+    upper = up.charAt(0).toUpperCase();
+    p.innerHTML = upper +  up.slice(1);
 }
 
 function añadir() {
