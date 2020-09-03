@@ -8,8 +8,6 @@
 
 ## Espero te interese la pagina😁
 
-[![Foto de la pagina](Pagina.jpg "Foto de la pagina")](Pagina.jpg "Foto de la pagina")
-
 [Click aquí para entrar a la pagina](https://pagiw.github.io/Home/ "Click aquí para entrar a la pagina")
 
 #### ***Puedes Hacerme Un Pull Request Y Te Lo Podria Aceptar***
