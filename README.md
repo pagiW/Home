@@ -2,9 +2,9 @@
 ## Este es un sitio muy sencillo
 *Esta Es Mi Primera Pagina Web Que Subi Publicamente*
 ### Esto es lo que pueden hacer en la pagina:
-- ####  **Puedes cambiar el texto**
-- #### **Puedes agregar mas texto al texto ya predeterminado o al texto que tu pusiste**
+- ####  **¡Puedes escribir lo que quieras!**
 - #### **Puedes aliniar el texto tanto a la izquierda, centro o a la derecha**
+- #### **Puedes subrrayar el texto y hacerlo en Negrilla y en Italica**
 
 ## Espero te interese la pagina😁
 
