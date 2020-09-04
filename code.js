@@ -11,6 +11,7 @@ var upper;
 var bc = 0;
 var uc = 0;
 var ic = 0;
+var estilo = p.style;
 
 end.addEventListener('click', derecha);
 center.addEventListener('click', centro);
@@ -21,43 +22,43 @@ i.addEventListener('click', italic);
 document.addEventListener('keyup', press);
 
 function derecha() {
-    p.style.textAlign = "end";
+    estilo.textAlign = "end";
 }
 
 function centro() {
-    p.style.textAlign = "center";
+    estilo.textAlign = "center";
 }
 
 function izquierda() {
-    p.style.textAlign = "start";
+    estilo.textAlign = "start";
 }
 
 function bold() {
     if (bc == 0) {
-        p.style.fontWeight = "bold";
+        estilo.fontWeight = "bold";
         bc = Math.random();
     } else {
-        p.style.fontWeight = "200";
+        estilo.fontWeight = "200";
         bc = 0;
     }
 }
 
 function under() {
     if (uc == 0) {
-        p.style.textDecoration = "underline";
+        estilo.textDecoration = "underline";
         uc = Math.random();
     } else {
-        p.style.textDecoration = "none";
+        estilo.textDecoration = "none";
         uc = 0;
     }
 }
 
 function italic() {
     if (ic == 0) {
-        p.style.fontStyle = "italic";
+        estilo.fontStyle = "italic";
         ic = Math.random();
     } else {
-        p.style.fontStyle = "normal";
+        estilo.fontStyle = "normal";
         ic = 0;
     }
 }
