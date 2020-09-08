@@ -5,6 +5,7 @@
 - ####  **¡Puedes escribir lo que quieras!**
 - #### **Puedes aliniar el texto tanto a la izquierda, centro o a la derecha**
 - #### **Puedes subrrayar el texto y hacerlo en Negrilla y en Italica**
+- #### **Puedes cambiar el color del texto**
 
 ## Espero te interese la pagina😁
 

@@ -6,6 +6,9 @@ var start = document.getElementById('start');
 var b = document.getElementById('b');
 var u = document.getElementById('u');
 var i = document.getElementById('i');
+var colorbut = document.getElementById('cb');
+var reset = document.getElementById('quit');
+var color = document.getElementById('color');
 var up;
 var upper;
 var bc = 0;
@@ -16,10 +19,20 @@ var estilo = p.style;
 end.addEventListener('click', derecha);
 center.addEventListener('click', centro);
 start.addEventListener('click', izquierda);
+colorbut.addEventListener('click', colorb);
+reset.addEventListener('click', quitcolor);
 b.addEventListener('click', bold);
 u.addEventListener('click', under);
 i.addEventListener('click', italic);
 document.addEventListener('keyup', press);
+
+function colorb() {
+    estilo.color = color.value;
+}
+
+function quitcolor() {
+    estilo.color = "white";
+}
 
 function derecha() {
     estilo.textAlign = "end";

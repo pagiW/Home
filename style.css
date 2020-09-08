@@ -8,7 +8,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 67px);
-    grid-template-areas: "start center end" "b u i" "txt txt txt" "p p p";
+    grid-template-areas: "start center end" "b u i" "form form form" "txt txt txt" "p p p";
     align-content: center;
     align-items: center;
 }
@@ -61,16 +61,29 @@ p {
     text-align: center;
     grid-area: p;
 }
+form {
+    grid-area: form;
+    display: inherit;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
 @media screen and (max-width: 570px) {
     main {
         grid-template-columns: 100%;
         grid-template-rows: repeat(6, 67px);
-        grid-template-areas: "start" "center" "end" "b" "u" "i" "txt" "p";
+        grid-template-areas: "start" "center" "end" "b" "u" "i" "form" "txt" "p";
     }
     .txt {
         grid-area: txt;
     }
     .texto {
         width: 90%;
+    }
+    form {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 100px);
     }
 }
