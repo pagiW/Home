@@ -28,6 +28,7 @@ document.addEventListener('keyup', press);
 
 function colorb() {
     estilo.color = color.value;
+    colorbut.innerHTML = "Cambiar el color";
 }
 
 function quitcolor() {
