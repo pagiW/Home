@@ -4,7 +4,7 @@
     background-color: rgb(53, 53, 53);
     color: white;
 }
-body {
+main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 67px);
@@ -62,7 +62,7 @@ p {
     grid-area: p;
 }
 @media screen and (max-width: 570px) {
-    body {
+    main {
         grid-template-columns: 100%;
         grid-template-rows: repeat(6, 67px);
         grid-template-areas: "start" "center" "end" "b" "u" "i" "txt" "p";
