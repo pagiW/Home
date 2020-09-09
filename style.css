@@ -11,16 +11,17 @@ main {
     grid-template-areas: "start center end" "b u i" "reset color change" "txt txt txt" "p p p";
     align-content: center;
     align-items: center;
-    justify-content: center;
-    justify-items: center;
 }
 .reset {
+    justify-self: center;
     grid-area: reset;
 }
 .color {
+    justify-items: center;
     grid-area: color;
 }
 .change {
+    justify-self: center;
     grid-area: change;
 }
 .b-s {
