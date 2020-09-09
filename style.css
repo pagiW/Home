@@ -8,9 +8,20 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 67px);
-    grid-template-areas: "start center end" "b u i" "form form form" "txt txt txt" "p p p";
+    grid-template-areas: "start center end" "b u i" "reset color change" "txt txt txt" "p p p";
     align-content: center;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.reset {
+    grid-area: reset;
+}
+.color {
+    grid-area: color;
+}
+.change {
+    grid-area: change;
 }
 .b-s {
     grid-area: start;
@@ -61,15 +72,6 @@ p {
     text-align: center;
     grid-area: p;
 }
-form {
-    grid-area: form;
-    display: inherit;
-    grid-template-columns: repeat(3, 1fr);
-    align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
 .colors {
     border: none;
     width: 50px;
@@ -79,16 +81,14 @@ form {
     main {
         grid-template-columns: 100%;
         grid-template-rows: repeat(6, 67px);
-        grid-template-areas: "start" "center" "end" "b" "u" "i" "form" "txt" "p";
+        grid-template-areas: "start" "center" "end" "b" "u" "i" "reset" "color" "change" "txt" "p";
     }
     .txt {
         grid-area: txt;
     }
     .texto {
-        width: 90%;
-    }
-    form {
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(3, 100px);
+        position: relative;
+        right: 14px;
+        width: 100%;
     }
 }
