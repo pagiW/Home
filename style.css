@@ -87,9 +87,7 @@ p {
     .txt {
         grid-area: txt;
     }
-    .texto {
-        position: relative;
-        right: 14px;
-        width: 100%;
+    .texto, button {
+        width: 90%;
     }
 }
